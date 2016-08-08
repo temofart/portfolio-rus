@@ -1,0 +1,54 @@
+@font-face {
+	src: url("../fonts/metaserif-book-opentype.ttf");
+	font-family: "metaserif";
+}
+@font-face {
+	src: url("../fonts/metaserif-book-opentype.oet");
+	font-family: "metaserif";
+}
+@font-face {
+	src: url("../fonts/metaserif-book-opentype.woff");
+	font-family: "metaserif";
+}
+
+
+@font-face {
+	src: url("../fonts/displaypro-med.ttf");
+	font-family: "displaypro";
+}
+@font-face {
+	src: url("../fonts/displaypro-med.oet");
+	font-family: "displaypro";
+}
+@font-face {
+	src: url("../fonts/displaypro-med.woff");
+	font-family: "displaypro";
+}
+
+
+@font-face {
+	src: url("../fonts/brocs.ttf");
+	font-family: "brocs";
+}
+@font-face {
+	src: url("../fonts/brocs.oet");
+	font-family: "brocs";
+}
+@font-face {
+	src: url("../fonts/brocs.woff");
+	font-family: "brocs";
+}
+
+
+@font-face {
+	src: url("../fonts/sanspro-reg.ttf");
+	font-family: "sanspro";
+}
+@font-face {
+	src: url("../fonts/sanspro-reg.oet");
+	font-family: "sanspro";
+}
+@font-face {
+	src: url("../fonts/sanspro-reg.woff");
+	font-family: "sanspro";
+}
