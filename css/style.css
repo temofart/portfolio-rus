@@ -1,0 +1,406 @@
+body * {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	src: url("../fonts/metaserif-book-opentype.otf");
+	font-family: "metaserif";
+}
+@font-face {
+	src: url("../fonts/displaypro-med.ttf");
+	font-family: "displaypro";
+}
+@font-face {
+	src: url("../fonts/brocs.ttf");
+	font-family: "brocs";
+}
+@font-face {
+	src: url("../fonts/sanspro-reg.ttf");
+	font-family: "sanspro";
+}
+.header {
+	background: url(../images/back.jpg) center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 80vh;
+}
+.header .logo {
+	display: inline-block;
+	padding: 10px 10px;
+	color: #fff;
+	font-size: 34px;
+	font-family: "displaypro";
+	margin-top: 10px;
+	padding-left: 50px;
+	text-shadow: 2px 2px #969696;
+	float: left;
+}
+.header .menu ul {
+	margin-top: 20px;
+	float: right;
+	display: inline-block;
+}
+.header .menu ul li{
+	display: inline-block;
+	padding: 10px 10px;
+	color: #fff;
+	font-size: 24px;
+	font-family: "displaypro";
+}
+.header .menu li a {
+	color: #fff;
+	text-decoration: none;	
+	padding: 4px;
+	transition: 0.1s;
+}
+.header .menu ul li a:hover {
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	text-shadow: 1px 1px #B7B7B7;
+}
+.header blockquote {
+	margin-top: 100px;	
+	font-size: 30px;
+	border-left: none;
+	float: right;
+	padding-left: 100px;
+	font-family: "brocs";
+	font-weight: bold;
+	display: inline-block;
+	margin-left: 52%;
+}
+
+.hr {
+	height: 1px;
+	border: none;
+	background: #B1B1B1;
+	width: 80%;
+	text-align: center;
+	margin: 50px auto;
+	margin-bottom: 0;
+}
+
+/**/
+/*	ABOUT  */
+/**/
+
+.about .container {
+	text-align: center;
+	margin: 0px auto;
+}
+.about {
+	background: #E6E6E6;
+}
+.about h1 {
+	font-family: "metaserif";
+	font-weight: ;
+	margin: 0px auto;
+	margin-bottom: 50px;
+	padding-top: 30px;
+	text-align: center;
+}
+.about .me-text h3 {
+	font-size: 24px;
+	font-family: "sanspro";
+	display: inline-block;
+	float: left;
+	text-align: left;
+	line-height: 1.5;
+}
+.avatar img {
+	max-width: 90%;
+}
+
+/**/
+/*PORTFOLIO*/
+/**/
+
+.portfolio {
+	text-align: center;
+	background: #FCFBFB;
+}
+.block a {
+	text-decoration: none;
+	color: #EFEBEB;
+	font-weight: bold;
+	letter-spacing: 1px;
+	transition: 0.2s;
+}
+.block a:hover {
+	color: #fff;
+}
+.block {
+	max-width: 350px;
+	display: inline-block;	
+	min-height: 500px;
+	border: 1px solid #FEAC41;
+	border-radius: 5px;
+	margin: 20px auto;
+	padding: 20px 20px;
+	background-color: #FFA63C;
+	color: #fff;
+	padding-bottom: 0;
+	position: relative;
+	margin-bottom: 30px;
+}
+.first {
+	float: left;
+}
+.second {
+	float: center;
+}
+.third {
+	float: right;
+}
+
+.block img {
+ -moz-transition: all 0.3s ease-out;
+ -o-transition: all 0.3s ease-out;
+ -webkit-transition: all 0.3s ease-out;
+ }
+ 
+.block img:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ }
+.portfolio h1 {
+	font-family: "metaserif";
+	margin: 0px auto;
+	margin-bottom: 30px;
+	padding-top: 20px;
+	text-align: center;
+}
+.portfolio h3 {
+	font-family: "metaserif";
+	margin: 10px auto;
+	text-align: center;
+}
+.portfolio p {
+	font-family: "sanspro";
+	font-weight: 100;
+	margin: 0px auto;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 18px;
+}
+.first-block {
+	position: relative;
+}
+#view h4 a{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 10px 50px;
+	border: 1px solid #fff;
+	color: #fff;
+	transition: 0.3s;
+}
+#view h4 a:hover {
+background: #fff;
+color: #FFAA3B;
+text-shadow: 1px 1px #FFD092;
+}
+
+
+/**/
+/*SKILLS*/
+/**/
+.skills {
+	background: #ECECEC;
+}
+.skills h1 {
+	font-family: "metaserif";
+	font-weight: ;
+	margin: 0px auto;
+	padding-top: 50px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.skills h2 {
+	font-family: "sanspro";
+	margin: 20px auto;
+	text-align: center;
+}
+.skills ul {
+	margin: 20px auto;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.skills ul li {
+	font-family: "sanspro";
+	font-size: 18px;
+	list-style-type: none;
+	padding: 3px 20px;
+}
+.skills h3 {
+	text-align: center;
+	font-family: "brocs";
+	font-size: 34px;
+}
+
+/**/
+/*WHYME*/
+/**/
+.whyme h1 {
+	font-family: "metaserif";
+	font-weight: ;
+	margin: 0px auto;
+	padding-top: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.whyme {
+	text-align: center;
+}
+.icon {
+	margin: 40px auto;
+}
+.icon h3 {
+	font-family: "sanspro";
+	margin: 20px auto;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+/**/
+/*HIRE*/
+/**/
+
+.hire h1 {
+	font-family: "metaserif";
+	margin: 0px auto;
+	padding-top: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.hire {
+	text-align: center;
+	background: #E7E7E7;
+}
+.hire a {
+	text-decoration: none;
+	color: #FE904E;
+	text-shadow: 1px 1px #F5F5F5;
+	cursor: pointer;
+}
+.hire h2 {
+	font-family: "brocs";
+	font-size: 40px;
+	margin-top: 50px;
+}
+
+/*MOBILE*/
+@media screen and (max-width: 1200px) and (min-width: 991px){
+	.block {
+		max-width: 250px;
+		min-height: 550px;
+		padding: 20px 10px;
+		margin: 10px 10px;
+		overflow: hidden;
+		clear: both;
+	}
+	.first {
+	float: none;
+	}
+	.second {
+		float: none;
+	}
+	.third {
+		float: none;
+	}
+	.about .me-text h3 {
+	font-size: 18px;
+}
+.header .menu ul li{
+	padding: 10px 5px;
+}
+}
+
+@media screen and (max-width: 1160px) {
+	.header .menu ul li{
+	padding: 10px 3px;
+	font-size: 22px;
+}
+}
+
+@media screen and (max-width: 1000px) {
+	.header {
+		text-align: center;
+	}
+	.header .logo {
+		display: inline-block;
+		float: none;
+		text-align: center;
+		padding: 0px;
+	}
+	.header .menu ul {
+	margin-top: 20px;
+	float: none;
+	display: inline-block;
+}
+	.header .menu ul li{
+	padding: 10px 3px;
+	font-size: 24px;
+	text-shadow: 1px 1px #969696;
+	float: left;
+}
+.header blockquote {
+	margin-top: 10px;
+}
+}
+
+
+
+@media screen and (max-width: 991px) {
+	.block {
+		max-width: 100%;
+		min-height: 400px;
+}
+	.about .me-text h3 {
+		font-size: 20px;
+		text-align: center;
+	}
+	.avatar img {
+		margin-top: 20px;
+		max-width: 30%;
+	}
+	.header .menu ul {
+	float: none;
+	display: inline;
+}
+.header .menu ul li {
+	float: none;
+}
+.header blockquote {
+	float: none;
+	text-align: center;
+	margin: 50px auto;
+	padding: 0px;
+}
+}
+@media screen and (max-width: 555px) and (min-width: 449px){
+	.header .menu ul li{
+		padding: 5px 16px;
+		font-size: 28px;
+	}
+}
+@media screen and (max-width: 600px) and (min-width: 470px){
+	.block {
+		max-width: 100%;
+		min-height: 450px;
+	}
+}
+@media screen and (max-width: 470px) {
+	.block {
+		max-width: 100%;
+		min-height: 500px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.block {
+		max-width: 100%;
+		min-height: 550px;
+	}
+}
